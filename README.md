@@ -7,6 +7,7 @@ https://github.com/join
 3. Melakukan setting pada Windows Powershell
 
    git config --global user.name (masukkan username)
+
    git config --global user.email (masukkan email)
 
 5. Membuat SSH pada halaman Github
