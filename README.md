@@ -5,9 +5,12 @@ A. Prosedur Awal
 1. Pertama download github
    
 https://git-scm.com/downloads
-3. Membuat akun github
+
+2. Membuat akun github
+
 https://github.com/join
-4. Melakukan setting pada Windows Powershell
+
+3. Melakukan setting pada Windows Powershell
 
    git config --global user.name (masukkan username)
 
