@@ -76,19 +76,19 @@ git clone (link SSH yang telah di-copy)
       v. Masukkan command line berikut pada Powershell
 git branch -M main
 
-   C. Mengunggah File Local ke Github
+   c. Mengunggah File Local ke Github
 
-   1. Folder yang telah dibuat tersebut dapat secara bebas diisi dengan apa saja, tetapi baru tersimpan di local dan perlu diupload ke Github
+      1. Folder yang telah dibuat tersebut dapat secara bebas diisi dengan apa saja, tetapi baru tersimpan di local dan perlu diupload ke Github
 
-   2. Buka folder local yang telah dibuat dan isi
+      2. Buka folder local yang telah dibuat dan isi
 
-   3. Klik kanan dan buka Powershell
+      3. Klik kanan dan buka Powershell
 
-   4. Masukkan command berikut:
+      4. Masukkan command berikut:
       
-      git add . git commit -m "(ketikkan deskripsi dengan bebas)" git push origin (branch yang ingin diupload)
+         git add . git commit -m "(ketikkan deskripsi dengan bebas)" git push origin (branch yang ingin diupload)
 
-   D. Membuat Branch baru di github
+   d. Membuat Branch baru di github
 
       1. Branch memiliki fungsi yang mirip dengan folder, branch dapat melakukan perubahan versi di folder atau memasukkan isi yang lain tanpa menganggu branch utama
 
@@ -96,11 +96,31 @@ git branch -M main
 
       3. Klik kanan dan buka Powershell
 
-      4. Masukkan command line berikut pada Powershell
-git checkout -B (nama branch yang diinginkan)
+      4. Masukkan command line berikut pada Powershell:
+         git checkout -B (nama branch yang diinginkan)
 
-      5. Untuk pindah ke branch yang telah dibuat dapat menggunakan command line berikut
-git checkout (nama branch yang telah dibuat)
+      5. Untuk pindah ke branch yang telah dibuat dapat menggunakan command line berikut:
 
+         git checkout (nama branch yang telah dibuat)
+
+   e. Menghapus Branch di Github
+
+      1. Pindah ke branch lain yang tidak dihapus dengan command line berikut:
+
+         git checkout (nama branch yang diinginkan)
+
+      2. Masukkan command line berikut untuk menghapus branch yang dipilih
+
+         git branch -d (nama branch yang ingin dihapus)
+
+    f. Menggabungkan Branch di Github
+
+       1. Pindah ke branch yang ingin menjadi branch utama dari branch yang ingin digabungkan dengan command line berikut:
+
+          git checkout (nama branch yang diinginkan)
+
+       2. Gabungkan dengan command berikut:
+
+          git merge (nama branch yang ingin digabungkan)
 
 
